@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./public/img/logo2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="public/fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/response.css">
+    <title>DN LOGISTICS</title>
+</head>
+
+<body>
+    <header class="header pt-4">
+        <div class="container">
+            <div class="header__wrapper d-flex align-item-center justify-content-between">
+                <div class="header__logo" style="width: 100px; overflow: hidden;">
+                    <img src="./public/img/logo2.jpg" alt="" class="w-100" style="min-width: 100px; scale: 1.4;">
+                </div>
+                <div class="header__infor d-flex gap-3 align-items-end">
+                    <div class="header__infro-email">
+                        <span>
+                            <i class="fa-solid fa-envelope me-2"></i>
+                            <span class="text-uppercase text-danger">Email</span>
+                        </span>
+                        <a href="mailto:dnlogistics247@gmail.com" class="d-block">dnlogistics247@gmail.com</a>
+                    </div>
+                    <div class="header__infro-phone">
+                        <span>
+                            <i class="fa-solid fa-phone me-2"></i>
+                            <span class="text-uppercase text-danger">phone</span>
+                        </span>
+                        <a href="tel:+84988210280" class="d-block">0988.210.280</a>
+                    </div>
+                </div>
+                <div class="header__option d-none d-lg-flex flex-column justify-content-between">
+                    <div class="header__option-language">
+                        <span class="me-3">English</span>
+                        <img src="./public/img/iconEnglish.png" alt="" class="cursor-pointer" style="width: 40px;">
+                        <img src="./public/img/iconVietnamese.png" alt="" class="cursor-pointer" style="width: 40px;">
+                    </div>
+                    <div class="header__option-search">
+                        <span class="d-flex align-items-center">
+                            <input type="text" placeholder="Search..." class="w-100 border rounded-3 p-2">
+                            <i class="fa-solid fa-magnifying-glass px-3 py-2 fs-6 end-0 cursor-pointer"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="header__nav bg-primary mt-3">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center d-lg-none">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                        <i class="fa-solid fa-bars fs-2"></i>
+                    </button>
+                    <div class="header__option-language d-flex align-items-center position-relative">
+                        <span class="me-3 text-white">English</span>
+                        <img src="./public/img/iconEnglish.png" alt="" class="cursor-pointer" style="width: 40px;">
+                        <img src="./public/img/iconVietnamese.png" alt="" class="cursor-pointer" style="width: 40px;">
+                        <i class="fa-solid fa-magnifying-glass px-3 py-2 fs-4 end-0 text-white cursor-pointer"
+                            id="search-icon" onclick="searIcon()"></i>
+                        <input type="text" class="p-2 w-100 position-absolute top-100 d-none" placeholder="Search">
+                    </div>
+                </div>
+
+                <ul class="d-none list-unstyled d-lg-flex justify-content-center align-items-center p-0 m-0">
+                    <li class="px-4 py-3">
+                        <a href="index.html"
+                            class="text-uppercase text-white fs-5 text-decoration-none fw-medium">HOME</a>
+                    </li>
+                    <li class="px-4 py-3">
+                        <a href="member.html"
+                            class="text-uppercase text-white fs-5 text-decoration-none fw-medium">Human Resource</a>
+                    </li>
+                    <li class="px-4 py-3">
+                        <a href="company.html"
+                            class="text-uppercase text-danger fs-5 text-decoration-none fw-medium">COMPANY POLICY</a>
+                    </li>
+                    <li class="px-4 py-3">
+                        <a href="service.html"
+                            class="text-uppercase text-white fs-5 text-decoration-none fw-medium">SERVICE</a>
+                    </li>
+                    <li class="px-4 py-3">
+                        <a href="contact.html"
+                            class="text-uppercase text-white fs-5 text-decoration-none fw-medium">CONTACT</a>
+                    </li>
+                    <li class="px-4 py-3">
+                        <a href="customer.html"
+                            class="text-uppercase text-white fs-5 text-decoration-none fw-medium">CUSTOMER
+                            REVIEW</a>
+                    </li>
+                </ul>
+        </nav>
+        </div>
+    </header>
+
+    <main class="main pb-4">
+        <div class="container">
+            <div class="main__heading my-4">
+                <h3 class="text-uppercase text-center fs-1">COMPANY POLICY</h3>
+            </div>
+            <div class="main__company-img py-5">
+                <img src="./public/img/company.jpg" alt="" class="w-100">
+            </div>
+            <div class="py-5">
+                <div class="mt-2">
+                    <p class="d-flex gap-1 m-0">
+                        <a class="text-decoration-none fs-4 border border-1 py-3 w-100 d-block rounded-2 px-3"
+                            data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false"
+                            aria-controls="collapseExample">
+                            Compensation policy within 7 working days for damaged or lost goods.
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseExample1">
+                        <div class="card card-body fs-5">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis temporibus alias impedit
+                            animi ut quis, autem quos aliquam totam quam. Vel incidunt fugiat atque, id excepturi labore
+                            fugit quis consequuntur?
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <p class="d-flex gap-1 m-0">
+                        <a class="text-decoration-none fs-4 border border-1 py-3 w-100 d-block rounded-2 px-3"
+                            data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false"
+                            aria-controls="collapseExample">
+                            Commitment to the confidentiality of personal information and transaction information of
+                            customers.
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseExample2">
+                        <div class="card card-body fs-5">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis temporibus alias impedit
+                            animi ut quis, autem quos aliquam totam quam. Vel incidunt fugiat atque, id excepturi labore
+                            fugit quis consequuntur?
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <p class="d-flex gap-1 m-0">
+                        <a class="text-decoration-none fs-4 border border-1 py-3 w-100 d-block rounded-2 px-3"
+                            data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false"
+                            aria-controls="collapseExample">
+                            Available 24/7 to answer questions and handle complaints.
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseExample3">
+                        <div class="card card-body fs-5">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis temporibus alias impedit
+                            animi ut quis, autem quos aliquam totam quam. Vel incidunt fugiat atque, id excepturi labore
+                            fugit quis consequuntur?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer py-5 fs-6 text-white" style="background-color: #003d7c;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <a target="_blank"
+                        href="https://www.google.com/maps/place/220+Tr%C6%B0%E1%BB%9Dng+Chinh,+Ho%C3%A0+An,+C%E1%BA%A9m+L%E1%BB%87,+%C4%90%C3%A0+N%E1%BA%B5ng+550000,+Vi%E1%BB%87t+Nam/@16.054465,108.1812341,21z/data=!4m5!3m4!1s0x3142190f07665a41:0xe8846feba297be6f!8m2!3d16.0542218!4d108.1812656?hl=vi-VN&entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D"
+                        class="text-white d-block mb-2 fs-5">Address: 220 Truong Chinh Street, Thanh Khe
+                        District, Da
+                        Nang
+                        city</a>
+                    <a href="tel:+84988210280" class="text-white d-block mb-2 fs-5">Phone number: 0988.210.280</a>
+                    <a href="mailto:dnlogistics247@gmail.com" class="text-white d-block mb-2 fs-5">Email:
+                        dnlogistics247@gmail.com</a>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <span class="d-flex justify-content-center align-items-center gap-4">
+                        <p class="d-inline-block m-0 fs-5">Phone</p>
+                        <i class="fa-solid fa-phone fs-1" style="color: #74C0FC;"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+        id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">MENU</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="list-unstyled p-0 m-0">
+                <li class="px-4 py-3">
+                    <a href="index.html" class="text-uppercase text-black fs-5 text-decoration-none fw-medium">HOME</a>
+                </li>
+                <li class="px-4 py-3">
+                    <a href="member.html" class="text-uppercase text-black fs-5 text-decoration-none fw-medium">Human
+                        Resource</a>
+                </li>
+                <li class="px-4 py-3">
+                    <a href="company.html"
+                        class="text-uppercase text-danger fs-5 text-decoration-none fw-medium">COMPANY
+                        POLICY</a>
+                </li>
+                <li class="px-4 py-3">
+                    <a href="service.html"
+                        class="text-uppercase text-black fs-5 text-decoration-none fw-medium">SERVICE</a>
+                </li>
+                <li class="px-4 py-3">
+                    <a href="contact.html"
+                        class="text-uppercase text-black fs-5 text-decoration-none fw-medium">CONTACT</a>
+                </li>
+                <li class="px-4 py-3">
+                    <a href="customer.html"
+                        class="text-uppercase text-black fs-5 text-decoration-none fw-medium">CUSTOMER
+                        REVIEW</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./public/js/bootstrap.min.js"></script>
+    <script src="./public/js/main.js"></script>
+    <script src="./public/fontawesome-free-6.6.0-web/js/all.min.js"></script>
+
+</body>
+
+</html>
